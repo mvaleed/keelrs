@@ -1,0 +1,11 @@
+[package]
+name = "keelrs"
+version = "0.1.0"
+edition = "2024"
+description = "Rust SDK for keel, a durable execution engine."
+license = "Apache-2.0"
+repository = "https://github.com/mvaleed/keelrs"
+keywords = ["workflow", "durable-execution", "saga"]
+categories = ["api-bindings"]
+
+[dependencies]
