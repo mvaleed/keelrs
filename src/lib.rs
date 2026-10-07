@@ -10,3 +10,15 @@
 //!
 //! No public API yet. The client and the worker arrive in the first
 //! release.
+
+mod conn;
+mod errors;
+mod message;
+mod server;
+mod session;
+
+pub use errors::{Error, Result};
+pub use message::Message;
+pub use server::Server;
+
+pub(crate) use session::Session;
